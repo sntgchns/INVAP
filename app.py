@@ -14,7 +14,7 @@ def index():
 @app.route('/<string:area>')
 def areas(area):
     dato_buscado = [dato for dato in invap if dato['_id'] == area]
-    dato_erroneo = "La ruta '/{}' no existe en '/api/santi/'.".format(area)
+    dato_erroneo = 'La ruta '/{}' no existe.'.format(area)
     rutas_validas = 'Las rutas válidas son: {}'.format(rutas['rutas'])
     if len(dato_buscado) > 0:
         return jsonify(dato_buscado[0])

@@ -367,7 +367,7 @@ invap = [dict(
 ]
 
 rutas = {
-    'rutas': ['/nuclear', '/espacial', '/defensa', '/medicina', '/sedes', '/social']
+    'rutas': ['/nuclear', '/espacial', '/defensa', '/medicina', '/sedes', '/social', '/ping']
     }
 
 instrucciones = ['Bienvenido. Esta es una API no oficial de INVAP: ',
