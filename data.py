@@ -370,7 +370,7 @@ rutas = {
     'rutas': ['/nuclear', '/espacial', '/defensa', '/medicina', '/sedes', '/social']
     }
 
-instrucciones = ['Bienvenido a la API de INVAP: ',
-    'Para ver los datos, ingresa a las siguientes rutas del dominio:',
+instrucciones = ['Bienvenido. Esta es una API no oficial de INVAP: ',
+    'Para navegar los datos, ingresa a las siguientes rutas del dominio:',
     'Recorda no usar caracteres especiales, acentos ni espacios en blanco. Gracias por conectarte!'
 ]
