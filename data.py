@@ -146,25 +146,6 @@ invap = [dict(
             _id= 'defensa',
             Defensa= dict(
                     radares= dict(
-                        RUAS_160= dict(
-                            descripcion= dict(
-                                longitud= '3,10 m',
-                                ancho_fuselaje= '0,7 m',
-                                ancho_patines= '1,8 m',
-                                altura= '1,72 m',
-                                diametro_de_rotor_superior_e_inferior= '3,6 m',
-                            ),
-                            pesos= dict(
-                                peso_maximo_de_despegue= '150 Kg',
-                                peso_vacio= '80 Kg',
-                                capacidad_de_carga_util= '70 Kg (sensores y combustible)'
-                            ),
-                            sistema_propulsivo= dict(
-                                tipo_de_motor= 'Motor a piston 2T',
-                                potencia= '39 HP',
-                                opcional= 'Redundancia doble motor a pistón'
-                            ),
-                        ),
                         RMA_C320= dict(),
                         RSMA_S= dict(
                             volumen_de_cobertura= dict(
@@ -284,6 +265,25 @@ invap = [dict(
                                     avioneta_pequeña= '41 Km',
                                     drones= '23 Km'
                                 )
+                            ),
+                        ),
+                        RUAS_160= dict(
+                            descripcion= dict(
+                                longitud= '3,10 m',
+                                ancho_fuselaje= '0,7 m',
+                                ancho_patines= '1,8 m',
+                                altura= '1,72 m',
+                                diametro_de_rotor_superior_e_inferior= '3,6 m',
+                            ),
+                            pesos= dict(
+                                peso_maximo_de_despegue= '150 Kg',
+                                peso_vacio= '80 Kg',
+                                capacidad_de_carga_util= '70 Kg (sensores y combustible)'
+                            ),
+                            sistema_propulsivo= dict(
+                                tipo_de_motor= 'Motor a piston 2T',
+                                potencia= '39 HP',
+                                opcional= 'Redundancia doble motor a pistón'
                             ),
                         ),
                     ),
