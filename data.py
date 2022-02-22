@@ -372,5 +372,6 @@ rutas = {
 
 instrucciones = ['Bienvenido. Esta es una API no oficial de INVAP: ',
     'Para navegar los datos, ingresa a las siguientes rutas del dominio:',
-    'Recorda no usar caracteres especiales, acentos ni espacios en blanco. Gracias por conectarte!'
+    'Recorda no usar caracteres especiales, acentos ni espacios en blanco. Gracias por conectarte!',
+    'web_contact: santiago.soñora.site'
 ]
